@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <ProviderExample />
-      <div style={{ display: 'flex', flexFlow: 'wrap', fontFamily: 'sans-serif' }}>
+      <div style={{ display:'grid' , gridTemplateColumns:'1fr', placeItems:'center', height:'100vh'}}>
         <MetaMaskCard />
   
       </div>
